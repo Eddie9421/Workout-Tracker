@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 function AddWorkoutButton({ workouts }) {
+  const [workoutName, setWorkoutName] = useState({});
   function addWorkout() {}
 
   return (
