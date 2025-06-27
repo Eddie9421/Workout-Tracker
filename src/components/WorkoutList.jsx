@@ -8,7 +8,7 @@ export default function WorkoutList() {
   return (
     <>
       <h2 className="flex justify-center">Workouts</h2>
-      <button onClick={addWorkout}>Add Workouts</button>
+      <button onClick={addWorkout}>Add Workout</button>
     </>
   );
 }
